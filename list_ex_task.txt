@@ -1,0 +1,89 @@
+🟦 DANH SÁCH BÀI TẬP DSA (FULL 20 BÀI)
+🟩 CHỦ ĐỀ 1: ARRAY (MẢNG)
+🧩 Bài 1 – Tính tổng mảng Done
+
+Cho mảng số nguyên, tính tổng các phần tử.
+
+🧩 Bài 2 – Tìm phần tử lớn nhất
+
+Tìm max trong mảng.
+
+🧩 Bài 3 – Đếm số lần xuất hiện của 1 phần tử
+
+Đếm số lần xuất hiện của số x.
+
+🧩 Bài 4 – Đảo ngược mảng (2 con trỏ)
+
+Không dùng reverse().
+
+🧩 Bài 5 – Two Sum
+
+Tìm 2 phần tử có tổng bằng target.
+
+🧩 Bài 6 – Di chuyển số 0 về cuối mảng (move zeros)
+
+Giữ nguyên thứ tự số khác 0.
+
+🧩 Bài 7 – Kadane’s Algorithm
+
+Tìm tổng lớn nhất của đoạn con liên tục (maximum subarray sum).
+
+🟧 CHỦ ĐỀ 2: STRING
+🧩 Bài 8 – Đếm số từ trong chuỗi
+
+Tính bao nhiêu từ trong một câu.
+
+🧩 Bài 9 – Đảo ngược chuỗi
+
+Không dùng [::-1] hoặc reverse().
+
+🧩 Bài 10 – Kiểm tra chuỗi Palindrome
+
+Chuỗi có đối xứng không.
+
+🟨 CHỦ ĐỀ 3: HASH MAP
+🧩 Bài 11 – Kiểm tra 2 chuỗi anagram
+
+"listen" và "silent" → True.
+
+🟥 CHỦ ĐỀ 4: LINKED LIST
+🧩 Bài 12 – Reverse Linked List
+
+Đảo ngược danh sách liên kết.
+
+🧩 Bài 13 – Detect Cycle (Floyd algorithm)
+
+Tìm xem linked list có vòng không.
+
+🟦 CHỦ ĐỀ 5: STACK – QUEUE
+🧩 Bài 14 – Kiểm tra dấu ngoặc hợp lệ
+
+"()[]{}" → True.
+
+🟩 CHỦ ĐỀ 6: TREE
+🧩 Bài 15 – Tính chiều cao của cây nhị phân
+
+Chiều cao = max(depth(left), depth(right)) + 1.
+
+🟪 CHỦ ĐỀ 7: GRAPH
+🧩 Bài 16 – Đếm số đảo (Number of Islands)
+
+Matrix 0/1 → đếm số vùng đảo.
+
+🟧 CHỦ ĐỀ 8: DYNAMIC PROGRAMMING
+🧩 Bài 17 – Climbing Stairs
+
+n = 5 → output = 8.
+
+🧩 Bài 18 – Longest Increasing Subsequence (LIS)
+
+Dãy con tăng dài nhất.
+
+🟫 CHỦ ĐỀ 9: BACKTRACKING
+🧩 Bài 19 – Sinh tất cả hoán vị (Permutation)
+
+Input: [1, 2, 3] → tất cả permutations.
+
+🧩 Bài 20 – N-Queens
+
+Xếp hậu lên bàn cờ NxN (nâng cao).
