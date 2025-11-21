@@ -1,108 +1,189 @@
-# 📘 Danh Sách Bài Tập DSA (20 Bài)
 
-Tài liệu tổng hợp 20 bài tập DSA chia theo từng **chủ đề thuật toán**. Đây là phiên bản README.md chuẩn để đưa lên GitHub.
+# 🚀 Full Pipeline Học DSA (8 Tuần)
 
----
-
-# 🟦 Chủ đề 1: ARRAY (MẢNG)
-
-### 🧩 Bài 1 – Tính tổng mảng  
-Tính tổng tất cả phần tử trong mảng.
-
-### 🧩 Bài 2 – Tìm phần tử lớn nhất  
-Tìm giá trị lớn nhất trong mảng.
-
-### 🧩 Bài 3 – Đếm số lần xuất hiện  
-Đếm số lần xuất hiện của phần tử x.
-
-### 🧩 Bài 4 – Đảo ngược mảng (Two Pointers)  
-Không dùng `reverse()`. Dùng 2 con trỏ.
-
-### 🧩 Bài 5 – Two Sum  
-Tìm 2 phần tử có tổng bằng `target`.
-
-### 🧩 Bài 6 – Move Zeros  
-Di chuyển toàn bộ số 0 về cuối, giữ nguyên thứ tự phần tử khác 0.
-
-### 🧩 Bài 7 – Kadane’s Algorithm  
-Tìm tổng lớn nhất của một đoạn con liên tục (Maximum Subarray Sum).
+Tài liệu này cung cấp **lộ trình học DSA từ A → Z** trong 8 tuần, bao gồm:
+- Kiến thức nền tảng  
+- Các chủ đề trọng tâm  
+- Bộ bài tập nên làm  
+- Gợi ý bài LeetCode theo mức độ  
 
 ---
 
-# 🟧 Chủ đề 2: STRING
+# 🟦 TUẦN 1 – NỀN TẢNG DSA + ARRAY
 
-### 🧩 Bài 8 – Đếm số từ trong chuỗi  
-Tính số từ của một câu.
+## 🎯 Mục tiêu
+Hiểu cách phân tích thời gian, không gian và làm quen với mảng.
 
-### 🧩 Bài 9 – Đảo ngược chuỗi  
-Không dùng `[::-1]` hoặc `.reverse()`.
+## 📚 Kiến thức
+- Big-O notation  
+- Array indexing  
+- Brute force → Optimize  
+- Two pointers  
+- Sorting cơ bản  
 
-### 🧩 Bài 10 – Kiểm tra Palindrome  
-Chuỗi có đối xứng không.
+## 🧩 Bài tập
+- Tính tổng mảng  
+- Tìm max/min  
+- Đảo mảng (2 con trỏ)  
+- Two Sum  
+- Move Zeros  
+- Kadane Algorithm  
 
----
-
-# 🟨 Chủ đề 3: HASH MAP
-
-### 🧩 Bài 11 – Kiểm tra Anagram  
-Ví dụ: `"listen"` và `"silent"` → `True`.
-
----
-
-# 🟥 Chủ đề 4: LINKED LIST
-
-### 🧩 Bài 12 – Reverse Linked List  
-Đảo ngược danh sách liên kết.
-
-### 🧩 Bài 13 – Detect Cycle (Floyd Algorithm)  
-Kiểm tra linked list có vòng hay không.
+## 🎯 LeetCode
+- 1. Two Sum  
+- 121. Best Time to Buy/Sell Stock  
+- 88. Merge Sorted Array  
 
 ---
 
-# 🟦 Chủ đề 5: STACK – QUEUE
+# 🟧 TUẦN 2 – STRING + HASHMAP + SLIDING WINDOW
 
-### 🧩 Bài 14 – Kiểm tra dấu ngoặc hợp lệ  
-Ví dụ: `"()[]{}"` → `True`.
+## 📚 Kiến thức
+- Reverse string  
+- Palindrome  
+- Hash map counting  
+- Sliding Window  
 
----
+## 🧩 Bài tập
+- Đếm từ  
+- Palindrome  
+- Anagram  
+- Substring không lặp lại  
 
-# 🟩 Chủ đề 6: TREE
-
-### 🧩 Bài 15 – Tính chiều cao của cây nhị phân  
-Công thức: `height = max(depth(left), depth(right)) + 1`.
-
----
-
-# 🟪 Chủ đề 7: GRAPH
-
-### 🧩 Bài 16 – Number of Islands  
-Matrix 0/1 → đếm số vùng đảo bằng DFS/BFS.
-
----
-
-# 🟧 Chủ đề 8: DYNAMIC PROGRAMMING
-
-### 🧩 Bài 17 – Climbing Stairs  
-Ví dụ: `n = 5 → 8`.
-
-### 🧩 Bài 18 – Longest Increasing Subsequence (LIS)  
-Tìm dãy con tăng dài nhất.
+## 🎯 LeetCode
+- 3. Longest Substring Without Repeating Characters  
+- 20. Valid Parentheses  
+- 49. Group Anagrams  
 
 ---
 
-# 🟫 Chủ đề 9: BACKTRACKING
+# 🟥 TUẦN 3 – LINKED LIST
 
-### 🧩 Bài 19 – Sinh tất cả Permutations  
-Input: `[1, 2, 3]` → liệt kê mọi hoán vị.
+## 📚 Kiến thức
+- Node  
+- Reverse linked list  
+- Fast/slow pointer  
+- Detect cycle  
 
-### 🧩 Bài 20 – N-Queens  
-Bài nâng cao: xếp N hậu sao cho không tấn công nhau.
+## 🧩 Bài tập
+- Reverse  
+- Cycle detection  
+- Merge 2 lists  
+- Find middle  
+
+## 🎯 LeetCode
+- 206. Reverse Linked List  
+- 141. Linked List Cycle  
+- 21. Merge 2 Sorted Lists  
 
 ---
 
-## 📄 Ghi chú
-- Các bài được sắp xếp từ dễ → khó.  
-- Dùng để luyện tập DSA cho phỏng vấn hoặc học thuật.  
-- Có thể kết hợp Python / C# / Java đều được.
+# 🟦 TUẦN 4 – STACK & QUEUE + MONOTONIC STACK
 
-Chúc bạn học DSA hiệu quả! 🚀
+## 📚 Kiến thức
+- Stack  
+- Queue  
+- Monotonic Stack  
+
+## 🧩 Bài tập
+- Valid Parentheses  
+- Min Stack  
+- Daily Temperatures  
+
+## 🎯 LeetCode
+- 155. Min Stack  
+- 739. Daily Temperatures  
+
+---
+
+# 🟩 TUẦN 5 – TREE (DFS/BFS)
+
+## 📚 Kiến thức
+- Preorder  
+- Inorder  
+- Postorder  
+- BFS  
+- Height/Depth  
+
+## 🧩 Bài tập
+- Max Depth  
+- Invert Tree  
+- Count Nodes  
+
+## 🎯 LeetCode
+- 104. Max Depth  
+- 226. Invert Tree  
+- 102. Level Order Traversal  
+
+---
+
+# 🟪 TUẦN 6 – GRAPH
+
+## 📚 Kiến thức
+- DFS/BFS  
+- Connected Components  
+- Adjacency List  
+
+## 🧩 Bài tập
+- Number of Islands  
+- Max Area Island  
+- Clone Graph  
+
+## 🎯 LeetCode
+- 200. Number of Islands  
+- 133. Clone Graph  
+
+---
+
+# 🟧 TUẦN 7 – DYNAMIC PROGRAMMING
+
+## 📚 Kiến thức
+- Recursion → Memo → Tabulation  
+- Fibonacci  
+- LIS  
+- LCS  
+
+## 🧩 Bài tập
+- Climbing Stairs  
+- House Robber  
+- LIS  
+
+## 🎯 LeetCode
+- 70. Climbing Stairs  
+- 198. House Robber  
+- 300. LIS  
+
+---
+
+# 🟫 TUẦN 8 – BACKTRACKING + LEVEL NÂNG CAO
+
+## 📚 Kiến thức
+- Quy trình backtracking  
+- Branching & backtracking  
+- Tổ hợp – hoán vị  
+
+## 🧩 Bài tập
+- Permutations  
+- Subsets  
+- Combination Sum  
+- N-Queens  
+
+## 🎯 LeetCode
+- 46. Permutations  
+- 78. Subsets  
+- 39. Combination Sum  
+- 51. N-Queens  
+
+---
+
+# 🎁 BONUS – TIPS HỌC DSA HIỆU QUẢ
+
+- 1 ngày 1 bài  
+- Luôn phân tích Big-O  
+- Luôn thử brute-force trước  
+- Tự “explain code” như đang dạy người khác  
+- Sau 1–2 tuần làm lại bài cũ để nhớ lâu  
+
+---
+
+Chúc bạn học DSA hiệu quả và bứt tốc kỹ năng lập trình! 🚀
